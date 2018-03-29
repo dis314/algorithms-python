@@ -1,4 +1,4 @@
-from weighted_quick_union import WeightedQuickUnionPS
+﻿from weighted_quick_union import WeightedQuickUnionPS
 from random import randrange
 import math
 import matplotlib as mpl
@@ -178,7 +178,7 @@ class PercolationStats:
         return results
         
 if __name__ == "__main__":
-    print('''\nDue to time consuming nature of this algorithms
+    print('''\nDue to time consuming nature of this algorithm
 it is recommended to set dimesion < 100 and trials < 50\n''')
     n = input('Enter dimension: ')
     T = input('Enter number of trials: ')
